@@ -11,10 +11,10 @@ package POO;
 public class mainChangos {
     public static void main(String[] args) {
 
-        Chango c1 = new Chango("Agustin", 17);
-        Chango c2 = new Chango("Robertino", 17);
-        Chango c3 = new Chango("Santiago", 17);
-        Chango c4 = new Chango("Ramiro",16);
+        Chango c1 = new Chango("Agustin", 17, 1.78 );
+        Chango c2 = new Chango("Robertino", 17, 1.75 );
+        Chango c3 = new Chango("Santiago", 17, 1.73 );
+        Chango c4 = new Chango("Ramiro",16, 1.75 );
 
         c1.jugando();
         c2.hablando();

@@ -12,28 +12,31 @@ public class Chango {
     // Atributos
     String nombre;
     int edad;
+    double altura;
+    
 
     // Constructor
-    public Chango(String nombre, int edad) {
+    public Chango(String nombre, int edad, double altura) {
         this.nombre = nombre;
         this.edad = edad;
+        this.altura = altura;
     }
 
     // Métodos
     void jugando() {
-        System.out.println(nombre + " está jugando Free fire...");
+        System.out.println(nombre + " esta jugando Free fire...");
     }
 
     void hablando() {
-        System.out.println(nombre + " está hablando y distrayendo a los demas...");
+        System.out.println(nombre + " esta hablando y distrayendo a los demas...");
     }
     
     void concentrado() {
-        System.out.println(nombre + " está concentrado intentondo estudiar...");
+        System.out.println(nombre + " esta concentrado intentondo estudiar...");
     }
     
     void practicando() {
-        System.out.println(nombre + " está practicando un ejercio de matematica...");
+        System.out.println(nombre + " esta practicando un ejercio de matematica...");
     }
 
 }
