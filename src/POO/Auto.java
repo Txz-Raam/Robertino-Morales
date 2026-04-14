@@ -4,6 +4,8 @@
  */
 package POO;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author LABO B 7
@@ -32,7 +34,8 @@ public class Auto {
         velocidad-= 30;
         if(velocidad < 20){
         System.out.println("El auto marca "+marca+" esta Acelerando a: "+velocidad+ "km/h");
+    
     }
-        
+    
     }
 }
