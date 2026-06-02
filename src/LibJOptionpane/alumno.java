@@ -19,7 +19,7 @@ public class alumno {
         this.Nota = Nota;
     }
     void Aprobado (){
-        if(Nota>=6){
+        if(Nota>6){
             JOptionPane.showMessageDialog(null,"El alumno aprobo....");
         }
         else{
